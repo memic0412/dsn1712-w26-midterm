@@ -1,9 +1,9 @@
 body {
     margin: 0;
-font-family: "Montserrat", sans-serif;
-background-color: #0b0f1A;
-color: #f4f4f4;
-line-height: 1.6;
+    font-family: "Montserrat", sans-serif;
+    background-color: #0b0f1A;
+    color: #f4f4f4;
+    line-height: 1.6;
 }
 
 nav {
@@ -67,6 +67,13 @@ blockquote p {
     text-align: center;
 }
 
+blockquote p {
+    margin-top: 70px;
+    color: #c6a85b;
+    font-style: italic;
+    text-align: center;
+}
+
 ul {
     margin-top: 20px;
     margin-bottom: 40px;
@@ -77,18 +84,19 @@ li {
     margin-bottom: 12px;
 }
 
-header p {
+.hero {
     font-size: 20px;
     color: #9aa0a6;
     text-align: center;
 }
 
-header img {
-    display: block;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
+.hero-img {
+width: 99%;
+
+}
+
+#section-hero {
+    text-align: center;
 }
 
 section {
